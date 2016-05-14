@@ -1,0 +1,7 @@
+<h1>New Item</h1>
+<p>I named it after myself.</p>
+
+<blockquote>
+<h2 gamedata="items.blade_of_vindexus.name"></h2>
+<p class="tags"><loop items="items.blade_of_vindexus.tags" glue=", "><name path="tags.{{item}}"></name></loop></p>
+<p class="description" gamedata="items.blade_of_vindexus.description"></p>

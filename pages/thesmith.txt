@@ -1,0 +1,13 @@
+<h1 gamedata="classes.smith.name"></h1>
+<p gamedata="classes.smith.description"></p>
+
+<h2>Moves</h2>
+<p>You may take one of these moves when you level up.</p>
+
+<h3 gamedata="moves.sharpen_blade.name"></h3>
+<if path="moves.sharpen_blade.requires"><p class="requires">Requires: <gamedata path="moves.[moves.sharpen_blade.requires].name"></gamedata></p></if>
+<p class="description" aid:pstyle="MoveDescription" gamedata="moves.sharpen_blade.description"></p>
+
+<h3 gamedata="moves.blessed_blade.name"></h3>
+<if path="moves.blessed_blade.requires"><p class="requires">Requires: <gamedata path="moves.[moves.blessed_blade.requires].name"></gamedata></p></if>
+<p class="description" aid:pstyle="MoveDescription" gamedata="moves.blessed_blade.description"></p>
