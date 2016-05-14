@@ -1,0 +1,24 @@
+{
+  "name": "rpgparser-sample-game",
+  "version": "1.0.0",
+  "description": "An example RPG game to be used with rpgparser to show how to structure data and pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch game_data --watch pages/**.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vindexus/rpgparser-sample-game.git"
+  },
+  "author": "Colin \"Vindexus\" Kierans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vindexus/rpgparser-sample-game/issues"
+  },
+  "homepage": "https://github.com/vindexus/rpgparser-sample-game#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "rpgparser": "^1.0.3"
+  }
+}
